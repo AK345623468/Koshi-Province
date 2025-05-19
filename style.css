@@ -202,8 +202,12 @@ html, body {
     font-size: 1rem;
 }
     /* Travel Form */
-.text h1{
-    text-align: center;
+.form-section h1{
+    align-items:center;
+    font-size:3rem;
+    text-align:center;
+    padding:150px 10px 10px;
+    margin:auto;
 }
 .form-group {
     background-color: rgb(232, 132, 132);
