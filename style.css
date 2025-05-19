@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    position: fixed;
+    padding: 10px 20px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(181, 170, 170);
+}
+
+.logo img {
+    width: 100px;
+    height: 80px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.navbar ul {
+    display: flex;
+    gap: 15px;
+}
+
+.navbar li {
+    list-style-type: none;
+}
+
+.navbar a {
+    padding: 15px;
+    font-weight: bold;
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    color: red;
+}
+
+.btn {
+    padding: 5px;
+    border: 3px solid #333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.header-content {
+    height: 100vh;
+    background: url(image/river.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    padding-top: 80px;
+}
+
+.header-content h1 {
+    font-size: 2.5rem;
+    color: rgb(28, 28, 28);
+    margin-bottom: 300px;
+    padding: 0 20px;
+}
+
+/* destination part  */
+ .destination-part{
+    padding:120px 30px 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.destination{
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    gap:120px;
+    padding:0 260px 80px;
+}
+.destination-title{
+    background-color:#fff;
+    border-radius:15px;
+    overflow:hidden;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+    transition:transform 0.3s, box-shadow 0.3s;
+    width:500px;
+    height:550px;
+}
+.destination-title:hover{
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+.card-img1 img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:transform 0.2s;
+}
+.destination-card {
+    padding:10px;
+}
+.destination-card p{
+    font-size: 1rem;
+}
+
+.botn a {
+    text-decoration: none;
+    color:black;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.botn{
+    border-radius:10px;
+    border:3px solid;
+    margin-top:30px;
+    padding:10px;
+}
+.botn a:hover{
+    color:red;
+}
+
+/* Culture & Cuisine */
+.culture-container{
+    text-align: center;
+    padding: 130px 350px 40px ;
+}
+.culture-container1{
+    margin-bottom:40px;
+    font-size: 2rem;
+
+}
+.culture-container2{
+    margin-top:40px;
+    font-size: 2rem;
+}
+.cuisine, ul{
+    display: flex;
+    gap: 20px;
+}
+.cuisine li{
+    list-style-type:none;
+    margin:auto;
+    margin-right: 200px;
+}
+.culture{
+    margin-top:50px;
+    display:grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    gap:200px;
+    padding: 0 120px;
+}
+.culture-title{
+    border:3px solid #333;
+    background:#fff;
+    border-radius: 10px;
+    overflow:hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transition:transform 0.3s, box-shadow 0.3s;
+    width:380px;
+    height:450px;
+}
+.culture-title img{
+    max-width:100%;
+    height:100%;
+}
+
+.culture-title h3{
+    margin-top:190px;
+}
+.culture-title:hover{
+    /* transform: translate(10px); */
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.card-img{
+    height:300px;
+    overflow:hidden;
+}
+.card-img img{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+    transition:transform 0.5s;
+}
+.culture-card{
+    text-align: left;
+    padding:20px;
+}
+.culture-card h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.culture-card p{
+    font-size: 1rem;
+}
+    /* Travel Form */
+.text h1{
+    text-align: center;
+}
+.form-group {
+    background-color: rgb(232, 132, 132);
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    width: 500px;
+    margin: auto;
+    margin-top:200px;
+    height:700px;
+    cursor:pointer;
+}
+label {
+    font-weight: bold;
+    display:block;
+    margin-top: 15px;
+    cursor:pointer;
+}
+input, select, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor:pointer;
+}
+.footer{
+margin-top: 350px;
+}
+
+.btn1{
+    margin-top:10px;
+    padding:5px;
+    font-size: 1rem;
+}
+.btn:hover {
+    color: red;
+}
+
+/* Trip Plan */
+    .trip-section{
+        padding: 120px 10px;
+        width:50%;
+        margin:auto;
+    }
+    .trip-section{
+        display:grid;
+        grid-template-columns:repeat(auto-fit, minmax(400px,1fr));
+        gap:20px;
+    }
+    .trip-section h3{
+        margin-top:50px;
+    }
+    .trip-text {
+        font-size: 2.5rem;
+        text-align: center;
+    }
+  .trip-card{
+    max-width:400px;
+    height:550px;
+    margin-top:40px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
+    transition:transform 0.5s;
+  }
+
+  .trip-img{
+    border-radius:10px;
+    width:399px;
+    height:380px;
+  }
+.bus, h4, p{
+    font-size:1rem;
+    padding:10px;
+}
+.trip-img img{
+    width:100%;
+    height:350px;
+    object-fit:cover;
+}
+footer {
+    background-color: rgb(181, 170, 170);
+    padding: 10px 0;
+    text-align: center;
+}
+
+.footer-container p {
+    font-size: 1.5rem;
+    color: black;
+}
