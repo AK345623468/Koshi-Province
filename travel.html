@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo"><img src="image/logo.jpg" alt="Province Logo"></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="destination.html">Destination</a></li>
+                <li><a href="culture.html">Culture & Cuisine</a></li>
+                <li><a href="trip.html">Trip Plan</a></li>
+                <button class="btn"><a href="travel.html">Travel Form</a></button>
+            </ul>
+        </nav>
+    </div>
+
+<div class="form-container">
+    <div class="form-section">
+        <h1>Travel Form</h1>
+    <div class="form1">
+
+    
+    <form id="Travel-form" class="form-group">
+       <label for="name">Full Name</label>
+       <input type="name" name="name" placeholder="Enter your name">
+
+        <label for="email">Email</label>
+        <input type="email" name="email" placeholder="Enter your email" required>
+
+        <label for="date">Travel Date</label>
+        <input type="date" name="date" placeholder="Visit date" required>
+
+        <label for="destination">Destination</label>
+        <select id="destination" name="destination" required>
+            <option value="" undisabled>Choose Your destination</option>
+            <option value="bhedetar">Bhedetar</option>
+            <option value="kanyam">Kanyam</option>
+            <option value="koshi-tappu">Koshi Tappu</option>
+        </select>
+
+        <textarea name="text" placeholder="Write about" required></textarea>
+
+        <button class="btn1" type="submit">Go save</button>
+    </form>
+    </div>
+    </div>
+</div>
+<footer class="footer">
+        <div class="footer-container">
+            <div class="footer-container">
+                <p>Koshi Province &copy;Tourism Website 2082</p>
+            </div>
+        </div>
+</footer>
+</body>
+</html>
